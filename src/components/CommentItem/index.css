@@ -1,0 +1,89 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+.name-logo-c {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.profile-img {
+  display: flex;
+  border-radius: 20px;
+  border: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+.c {
+  display: flex;
+}
+.name-date-c {
+  display: flex;
+}
+
+.text-c {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+.name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+.comment {
+  width: 100%;
+}
+span {
+  margin-left: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  font-family: 'Roboto';
+  margin-bottom: 0;
+  flex-grow: 1;
+}
+.btn-c {
+  display: flex;
+  justify-content: space-between;
+}
+.like-btn,
+.del-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #0b69ff;
+}

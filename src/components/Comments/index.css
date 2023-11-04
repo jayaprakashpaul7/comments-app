@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg {
+  padding: 50px 50px 40px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.comment-img-card {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.form-c {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 22px;
+}
+
+textarea {
+  margin-bottom: 22px;
+}
+button {
+  height: 27px;
+  width: 120px;
+  outline: none;
+  border-radius: 3px;
+  background-color: #0284c7;
+  color: white;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border: 0;
+  cursor: pointer;
+}
+hr {
+  border: 1px solid teal;
+  width: 100%;
+}
+.image {
+  height: 250px;
+  width: 350px;
+  margin-left: 70px;
+  align-self: flex-end;
+}
+.no-of-comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+}
+.count {
+  background-color: #0284c7;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 5px;
+  border: 0;
+  border-radius: 3px;
+}
+p {
+  margin-left: 20px;
+}
+ul {
+  padding: 0;
+}
